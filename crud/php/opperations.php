@@ -24,6 +24,8 @@ if(isset($_POST['delete'])){
 
 
 
+
+
 function createData(){
     $bookname = textboxValue("book_name");
     $bookpublisher = textboxValue("book_publisher");
@@ -79,9 +81,10 @@ function updateData(){
     $bookname = textboxValue("book_name");
     $bookpublisher = textboxValue("book_publisher");
     $bookcost = textboxValue("book_cost");
+    $image = textboxValue("image");
 
 
-    if ($bookname && $bookpublisher && $bookcost) {
+    if ($bookname && $bookpublisher && $bookcost && $image) {
         $sql = " 
             UPDATE books SET book_name='$bookname', book_publisher='$bookpublisher', book_cost='$bookcost' WHERE id='$bookid'
         ";
