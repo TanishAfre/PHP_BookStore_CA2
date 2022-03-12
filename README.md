@@ -4,8 +4,8 @@
 
 <h3 align="center"> This a CRUD webpage where Adding, Updating, and Deleting Data works completely fine</h3>
 
-<h3 align="left">Connect with me:</h3>
 <p align="left">
+  This website uses interactive theme and style to create, design and implement data. It connect to a MySQL database using a PDO connection, implement client-side form validation, utilise SCSS for styling and you will need to upload all files securely to a web server
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
