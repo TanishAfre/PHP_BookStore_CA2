@@ -1,9 +1,6 @@
 # PHP_BookStore_CA2
 
-This is a CA project given by Sebastian Gates on PHP. I have used PHP and also used bootstrap to make the website look user friendly.
-
-
-
+<h2 aligh="center">This is a CA project given by Sebastian Gates on PHP.</h2>
 
 <h3 align="center"> I have used PHP and also used bootstrap to make the website look user friendly </h3>
 
