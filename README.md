@@ -9,6 +9,7 @@
 </p>
 
 <h3> Here's how the website looks. </h3>
+
 ![github-large](https://github.com/TanishAfre/PHP_BookStore_CA2/blob/c00432a8cacbeac633452a69aeacfef5604df49c/crud/Image/Screenshot%202022-03-12%20204301.png)
 
 
