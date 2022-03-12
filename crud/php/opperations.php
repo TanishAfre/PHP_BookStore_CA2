@@ -30,11 +30,11 @@ function createData(){
     $bookname = textboxValue("book_name");
     $bookpublisher = textboxValue("book_publisher");
     $bookcost = textboxValue("book_cost");
-    $bookimage = textboxValue("book_image");
+    // $bookimage = textboxValue("book_image");
 
-    if($bookname && $bookpublisher && $bookcost && $image){
-        $sql = "INSERT INTO books(book_name, book_publisher, book_cost, book_image)
-        VALUE('$bookname','$bookcost','$bookpublisher', '$bookimage')";
+    if($bookname && $bookpublisher && $bookcost){
+        $sql = "INSERT INTO books(book_name, book_publisher, book_cost)
+        VALUE('$bookname','$bookpublisher', '$bookcost')";
 
         if(mysqli_query($GLOBALS['con'], $sql)){
             TextNode("success", "Record Successfully inserted...!");
@@ -82,12 +82,12 @@ function updateData(){
     $bookname = textboxValue("book_name");
     $bookpublisher = textboxValue("book_publisher");
     $bookcost = textboxValue("book_cost");
-    $bookimage = textboxValue("book_image");
+    // $bookimage = textboxValue("book_image");
 
 
-    if ($bookname && $bookpublisher && $bookcost && $image) {
+    if ($bookname && $bookpublisher && $bookcost) {
         $sql = " 
-            UPDATE books SET book_name='$bookname', book_publisher='$bookpublisher', book_cost='$bookcost', image='$bookimage' WHERE id='$bookid'
+            UPDATE books SET book_name='$bookname', book_publisher='$bookpublisher', book_cost='$bookcost' WHERE id='$bookid'
         ";
 
         if(mysqli_query($GLOBALS['con'], $sql)){

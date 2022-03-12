@@ -38,10 +38,10 @@ Createdb();
                         <?php inputElement("<i class='fas fa-euro-sign'></i>","Cost", "book_cost", ""); ?>
                         </div>
                     </div>
-                    <div class="row pt2">
+                    <!-- <div class="row pt2">
                         <label>Image:</label>
                         <input type="file" name="image" accept="image/*" />
-                        <br>
+                        <br> -->
                     </div>
                     <div class="d-flex justify-content-center">
                         <?php buttonElement("btn-create", "btn btn-success", "<i class='fas fa-plus'></i>", "create", "bat-toggle='tooltip' data-placement='bottom' title='Create'") ?>
@@ -63,7 +63,7 @@ Createdb();
                             <td>Book Name</td>
                             <td>Publisher</td>
                             <td>Book Cost</td>
-                            <td>image</td>
+                            <!-- <td>image</td> -->
                             <td>Edit</td>
                         </tr>
                     </thead>    
@@ -87,7 +87,7 @@ Createdb();
                                         <td data-id=" <?php echo $row['id']; ?> " ><?php echo $row['book_name']; ?> </td>
                                         <td data-id=" <?php echo $row['id']; ?> "><?php echo $row['book_publisher']; ?> </td>
                                         <td data-id=" <?php echo $row['id']; ?> "><?php echo '€ '.$row['book_cost']; ?> </td>
-                                        <td data-id=" <?php echo $row['id']; ?> "><?php echo $row['image'] ?> </td>
+                                        <!-- <td data-id=" <?php echo $row['id']; ?> "><?php echo $row['image'] ?> </td> -->
                                         <td><i class="fas fa-edit btnedit" data-id=" <?php echo $row['id']; ?> "> </i></td>
                                     </tr>
                                     <?php
