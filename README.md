@@ -5,7 +5,7 @@ This is a CA project given by Sebastian Gates on PHP. I have used PHP and also u
 
 
 
-<h3 align="center">A passionate frontend developer from India</h3>
+<h3 align="center"> I have used PHP and also used bootstrap to make the website look user friendly </h3>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
