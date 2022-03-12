@@ -2,7 +2,7 @@
 
 <h2 aligh="center">This is a CA project given by Sebastian Gates on PHP.</h2>
 
-<h3 align="center"> I have used PHP and also used bootstrap to make the website look user friendly </h3>
+<h3 align="center"> This a CRUD webpage where Adding, Updating, and Deleting Data works completely fine</h3>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
