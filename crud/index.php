@@ -1,6 +1,6 @@
 <?php
 require_once("../crud/php/component.php");
-// require_once("../crud/php/database.php");
+require_once("../crud/php/database.php");
 require_once("../crud/php/opperations.php");
 
 Createdb();
